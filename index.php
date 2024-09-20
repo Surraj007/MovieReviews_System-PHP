@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-//  all movies here
+//  all movies are here
 $sql = "SELECT * FROM movies";
 $result = $conn->query($sql);
 ?>
